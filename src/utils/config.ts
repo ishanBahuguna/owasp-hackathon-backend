@@ -1,4 +1,7 @@
 import { Nest } from "owasp-nest";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 class OWASPNestClient {
     private static instance:Nest;
